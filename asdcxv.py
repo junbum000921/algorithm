@@ -9,3 +9,4 @@ def recursive_power(a, n):
         half_power = recursive_power(a, (n-1) // 2)
         return half_power * half_power * a
 print(recursive_power(a,b)%c)
+##hi
